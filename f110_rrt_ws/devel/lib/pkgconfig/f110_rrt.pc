@@ -1,0 +1,8 @@
+prefix=/home/s/Ba_Project/f110_rrt_ws/devel
+
+Name: f110_rrt
+Description: Description of f110_rrt
+Version: 0.0.0
+Cflags: -I/home/s/Ba_Project/f110_rrt_ws/src/include
+Libs: -L${prefix}/lib -lf110_rrt
+Requires: ackermann_msgs geometry_msgs roscpp rospy sensor_msgs std_msgs tf
